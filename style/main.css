@@ -1,0 +1,375 @@
+.main {
+    position: absolute;
+    top: 75px;
+    left: 432px;
+    margin-right: 5px;
+}
+
+@media (min-width: 1298px) and (max-width: 1350px) {
+    .main {
+       left: 310px;
+    }
+}
+
+
+
+
+.whats-happening {
+    display: flex;
+}
+.whats-happening-container {
+    margin-left: 15px;
+}
+.whats-happening-field {
+    width: 550px;
+    outline: none;
+    border: none;
+    padding: 10px 0px 0px 10px;  
+    font-size: 19px;
+    color: rgb(45, 45, 45);
+}
+.whats-happening-profile {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+/*user-information*/
+.profile {
+    position: relative;
+    width: 45px;
+    border-radius: 50%;
+}
+.profile-image {
+    text-align: center;
+    width: 60px;
+}
+.profile-div {
+    display: flex;
+}
+/*middle-section-profile-tooltip*/
+.middle-section-profile-tooltip {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middle-section-profile-tooltip .profile-tooltip-wrapper {
+    position: absolute;
+    top: 50px;
+    z-index: 200;
+    width: 180px;
+    box-shadow: 1px 1px 0px rgb(195, 195, 195);
+    background-color: white;
+    color: solid 1px rgb(242, 242, 242);
+    padding: 10px 80px 20px 10px;
+    border: solid 1px rgb(218, 218, 218);
+    border-radius: 10px;
+    opacity: 0;
+    visibility: hidden;
+}
+.middle-section-profile-tooltip:hover .profile-tooltip-wrapper {
+    visibility: visible;
+    opacity: 1;
+}
+
+.image-and-button {
+    display: flex;
+    margin-top: 5px;
+}
+.tooltip-profile {
+    width: 60px;
+    border-radius: 50%;
+}
+.tooltip-follow-button {
+    margin-top: 0px;
+    margin-left: 110px;
+    padding: 7px 18px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    width: max-content;
+}
+.tooltip-username-div {
+    line-height: 20px;
+}
+.user-name-tooltip {
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.user-name-tooltip:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(44, 44, 44);
+    text-decoration-thickness: 2px;
+}
+.bio-tooltip {
+    color: rgb(176, 176, 176);
+    font-size: 14px;
+    font-weight: 500;
+}
+.discription {
+    white-space: nowrap;
+    margin-top: 10px;
+    color: rgb(133, 133, 133);
+    font-weight: 500;
+}
+.audience {
+    display: flex;
+    white-space: nowrap;
+    margin-top: 12px;
+}
+.followers-div {
+    font-weight: bold;
+    font-size: 14px;
+}
+.followers-div:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.followers-following {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.followers-following:hover .follower-number-tooltip,
+.followers-following:hover .following-number-tooltip {
+    opacity: 1;
+}
+
+.followers-following .follower-number-tooltip,
+.followers-following .following-number-tooltip {
+    position: absolute;
+    top: 23px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding: 2px 4px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 2px;
+    opacity: 0;
+}
+
+.followers,
+.following-tooltip {
+    font-size: 14px;
+    color: rgb(133, 133, 133);
+    margin-right: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.mutual-friend  {
+    display: flex;
+    margin-top: 12px;
+}
+.picture-tooltip {
+    height: 24px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.mutual-friend-text {
+    margin-top: 3px;
+    white-space: nowrap;
+    font-size: 14px;
+    color: rgb(133, 133, 133);
+    font-weight: 500;
+}
+.tooltip-grok-div {
+    display: flex;
+    width: 190px;
+    background-color: white;
+    margin-top: 18px;
+    border: solid 1px rgb(200, 200, 200);
+    border-radius: 20px;
+    white-space: nowrap;
+    padding-left: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.tooltip-grok-div:hover {
+    background-color: rgb(227, 227, 227);
+}
+.profile-summary {
+    font-weight: bold;
+    font-size: 14px;
+}
+.tooltip-grok {
+    width: 20px;
+    margin-right: 5px;
+}
+.write-up {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.user-and-bio {
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 0px;
+}
+.user-name-2 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 3px;
+}
+.user-name-2:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.bio {
+    margin-left: 1px;
+    color: rgb(176, 176, 176);
+    font-weight: 500;
+}
+.whats-happening-container {
+    padding-bottom: 10px;
+    border-bottom: solid 1px rgb(242, 242, 242);
+}
+.user-header-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(251, 251, 251);
+    border-top: solid 1px rgb(242, 242, 242);
+    border-bottom: solid 1px rgb(242, 242, 242);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 630px;
+}
+
+.user-header {
+    display: flex;
+}
+.logos {
+    display: flex;
+    position: relative;
+    left: 38%;
+}
+.name-box-next-to-profile {
+    display: flex;
+    margin-right: 250px;
+    margin-left: 12px;
+}
+
+.more:hover,
+.grok:hover {
+    background-color: rgb(195, 226, 255);
+}
+.more-div-container,
+.grok-div-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-div-container .tooltip,
+.grok-div-container .tooltip {
+    position: absolute;
+    bottom: -13px;
+    background-color: rgb(108, 108, 108);
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 2px;
+    pointer-events: none;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.more-div-container:hover .tooltip,
+.grok-div-container:hover .tooltip{ 
+    opacity: 1;
+}
+.more,
+.grok {
+    position: relative;
+    border-radius: 50%;
+    height: 20px;
+    padding: 6px;
+    margin-top: 2px;
+    cursor: pointer;
+    width: 18px;
+}
+.name {
+    display: flex;
+}
+.verified {
+    margin-top: 5px;
+    width: 17px;
+    text-align: center;
+}
+.channel-picture-container {
+    break-inside: avoid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2px;
+}
+
+/*border-radius-for-the main-content*/
+.channel-picture-2 {
+    border-top-left-radius: 25px;
+    margin-left: 60px;
+}
+.channel-picture-3 {
+    border-top-right-radius: 25px; 
+    margin-left: 2px;  
+}
+.channel-picture-4 {
+    border-bottom-left-radius: 25px;
+    margin-left: 60px;
+}
+.channel-picture-5 {
+    border-bottom-right-radius: 25px;
+    margin-left: 2px;
+}
+
+.channel-picture-2,
+.channel-picture-3,
+.channel-picture-4,
+.channel-picture-5 { 
+    object-fit: cover;
+    height: 155px;
+    width: 270px;
+}
+
+.time-and-date {
+    margin-top: 10px;
+    margin-left: 70px;
+    color: gray;
+    font-size: 13px;
+    font-weight: 500;
+}
+.views {
+    color: black;
+    font-weight: bold;
+}
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 65px;
+    margin-right: 0px;
+    border-top: solid 1px rgb(240, 240, 240);
+}
+.post-icons-items { 
+    display: flex;
+    align-items: center;
+    width: 100px;
+}
+.post-icons-images {
+    width: 30px;
+}

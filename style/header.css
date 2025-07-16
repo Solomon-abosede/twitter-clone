@@ -1,0 +1,68 @@
+.header {
+    position: fixed;
+    left: 432px;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 1px rgb(227, 227, 227);
+    background-color: rgba(255, 255, 255, 0.953);
+    z-index: 100;
+}
+
+@media (min-width: 1298px) and (max-width: 1321px) {
+    .header {
+        left: 270px;
+    }
+}
+
+@media (min-width: 1298px) and (max-width: 1350px) {
+    .header {
+        left: 310px;
+    }
+}
+
+@media (min-width: 1351px) and (max-width: 1450px) {
+    .header {
+        left: 
+    }
+}
+
+.for-you {
+    position: relative;
+    font-weight: bold;   
+    margin-right: 15px;
+}
+.for-you-div {
+    padding: 17px 124px 17px 124px;
+    transition: background-color 0.10s,
+                cursor 0.10s;
+}
+.for-you-div:hover {
+    background-color: rgb(227, 227, 227);
+    cursor: pointer;
+}
+.for-you::after {
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    content: "";
+    background-color: rgb(66, 161, 255);
+    border: solid 3px rgb(66, 161, 255);
+    border-radius: 20px;
+    width: 50px;
+}
+.following {
+    color: gray;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.following-div {
+    padding: 17px 114px 17px 114px;
+    transition: background-color 0.10s,
+                cursor 0.10s;
+
+}
+.following-div:hover {
+    background-color: rgb(227, 227, 227);
+    cursor: pointer;
+}

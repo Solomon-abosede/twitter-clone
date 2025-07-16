@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/leftsidebar.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/rightsidebar.css">
+    <link rel="stylesheet" href="style/general.css"> 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <title>Twitter clone</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="https://x.com/home">
+                <div class="for-you-div">
+                    <span class="for-you">For you</span>
+                </div>
+            </a>
+           
+            <a href="https://x.com/home">
+                <div class="following-div">
+                    <div class="following">Following</div>
+                </div>
+            </a>
+            
+        </div>
+    
+        <div class="left-side-relative">
+            <div class="left-side-bar">
+                <a href="https://x.com/home">
+                    <div class="x-twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </div>
+                </a>
+            
+                <div class="side-bar-titles">
+        
+                    <a href="https://x.com/home">
+                        <div class="grid-1">
+                        
+                            <img class="side-bar-icons" src="images/home_28.svg">
+                    
+                            <div class="home">Home</div>
+            
+                        </div>
+                    </a>
+                   
+            
+                    <a href="https://x.com/explore">
+                        <div class="grid-1">
+                            <img class="side-bar-icons" src="images/seach-icon.png">
+                            
+                            <div class="home">Explore</div>
+                        </div>
+                    </a>
+        
+                    <a href="https://x.com/notifications">
+                        <div class="grid-1">
+                
+                            <img class="side-bar-icons" src="images/bell(1).png">
+                
+                            <div class="home">Notifications</div>
+                       </div>
+                    </a>
+            
+                    <a href="https://x.com/messages">
+                        <div class="grid-1">
+                    
+                            <img class="side-bar-icons" src="images/mail image.png">
+                
+                            <div class="home">Messages</div>
+                        </div>
+                    </a>
+        
+                    <a href="https://x.com/i/grok">
+                        <div class="grid-1">
+                
+                            <img class="side-bar-icons" src="images/grok-logo.png">
+                
+                            <div class="home">Grok</div>
+                       </div>
+                    </a>
+        
+                    <a href="https://x.com/communities">
+                        <div class="grid-1">
+                    
+                            <img class="side-bar-icons-2" src="images/person-icon.png">
+                
+                            <div class="home">Communities</div>
+                        </div>
+                    </a>
+        
+                    <a href="https://x.com/i/premium_sign_up">
+                        <div class="grid-1">
+                            <img class="side-bar-icons" src="images/x white background.png">
+                            
+                            <div class="home">Premium</div>
+                       </div>
+                    </a>
+            
+                    <a href="https://x.com/i/verified-orgs-signup">
+                        <div class="grid-1">
+                    
+                            <img class="side-bar-icons" src="images/lightening-bolt.png">
+                
+                            <div class="home">Verifies Orgs</div>
+                        </div>
+                    </a>
+        
+                    <a href="https://x.com">
+                        <div class="grid-1">
+                        
+                            <img class="side-bar-icons" src="images/profile-icon.png">
+                
+                            <div class="home">Profile</div>
+                        </div>
+                    </a>
+            
+                    <div class="grid-1">
+                        
+                        <img class="side-bar-icons" src="images/more-icon.png">
+            
+                        <div class="home">More</div>
+                    </div>
+        
+                    <a href="https://x.com/compose/post">
+                        <div class="post">Post</div>
+                    </a>
+            
+                    <div class="user-info">
+                        <div class="profile-picture-div">
+                            <img class="profile-picture" src="images/myself.jpg" alt="profile-picutre">
+                        </div>
+            
+                        <div class="username">
+                            <div class="name">Abosede</div>
+                            <span class="bio-name">@Abosede235795</span>
+                        </div>
+            
+                        <img class="menu-icon" src="images/menu_vertical_icon.png">
+                    </div>
+                </div>
+            </div>    
+        </div>
+    
+        <div class="real-main">
+
+            <!--MAIN-PAGE-->
+            <div class="main">
+                <div class="whats-happening-container">
+                    <div class="whats-happening">
+                        <div class="whats-happening-profile-div">
+                            <img class="whats-happening-profile" src="images/myself.jpg">
+                        </div>
+        
+                        <div>
+                            <textarea class="whats-happening-field" placeholder="What's happening?" id="text" 
+                            name="text" row="4" cols="20"></textarea>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="user-header-container">
+                    <div class="user-header">
+                        <div class="profile-div-container">
+        
+                            <div class="profile-div">
+                                <div class="middle-section-profile-tooltip">
+        
+                                    <a href="https://x.com/CristianoRonado">
+                                        <div class="profile-image">
+                                            <img class="profile" loading="lazy" src="images/channel-1.jpeg">
+                                        </div>
+                                    </a>
+        
+                                    <div class="profile-tooltip-wrapper">
+                                        <div class="profile-tooltip-container">
+        
+                                            <div class="image-and-button">
+                                                <a href="https://x.com/CristianoRonado">
+                                                    <div>
+                                                        <img class="tooltip-profile" loading="lazy" src="images/channel-1.jpeg">
+                                                    </div>
+                                                </a>
+                                
+                                                <div>
+                                                    <div class="tooltip-follow-button">Follow</div>
+                                                </div>
+                                            </div>     
+        
+                                            <div class="name">
+                                                <div class="tooltip-username-div">
+                                                    <div class="user-name-tooltip">Cristiano Ronado</div>
+                                                    <span class="bio-tooltip">@Cristiano</span>
+                                                </div>
+                                
+                                                <div class="verified-image-div">
+                                                    <img class="right-sidebar-verified" src="images/verified.png">
+                                                </div>
+                                            </div>
+                                
+                                            <div class="discription">Dad, footballer, citizen, husband.</div>
+                                            <div class="audience">
+                                                <div class="followers-following">
+                                                    <div class="followers-div">511.3K <span class="following-tooltip">Following</span> </div>
+                                                    <div class="following-number-tooltip">511,349</div>
+                                                </div>
+        
+                                                <div class="followers-following">
+                                                    <div class="followers-div">130M <span class="followers">Followers</span> </div>
+                                                    <div class="follower-number-tooltip">130,068,103</div>
+                                                </div>
+                                            </div>                                        
+        
+                                            <div class="mutual-friend">
+                                                <img class="picture-tooltip" src="images/channel-2.jpeg">
+                                                <div class="mutual-friend-text">Followed by Dr. 'Bosun Tijani</div>
+                                            </div>
+        
+                                            <div class="tooltip-grok-div">
+                                                <img class="tooltip-grok" src="images/grok-logo.png">
+                                                <div class="profile-summary">Profile Summary</div>
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                </div>
+            
+                                <div class="user-and-bio-container">
+                                    <div class="user-and-bio">
+                                        <div class="user-name-2">Cristiano Ronado</div>
+                
+                                        <div class="verified-image-div">
+                                            <img class="verified" src="images/verified.png">
+                                        </div>
+                                
+                                        <div class="bio">@Cristiano &#183 Apr 2</div>
+                                    </div>
+        
+                                    <div class="write-up">Working to reach our goal</div>
+                                </div>
+                
+                            </div>
+        
+                            
+                        </div>
+        
+                        <div class="logos">
+                
+                            <div class="grok-div-container">
+                                <img class="grok" src="images/grok-logo.png">
+                
+                                <div class="tooltip">Explain this post</div>
+                            </div>
+                
+                            <div class="more-div-container">
+                                <img class="grok" src="images/menu_vertical_icon.png">
+        
+                                <div class="tooltip">More</div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="channel-picture-container">
+                        <img class="channel-picture-2" src="images/tweet-image.jpg" loading="lazy">
+                    
+                    
+                        <img class="channel-picture-3"src="images/tweet image 2.jpg" loading="lazy">
+                    
+                    
+                        <img class="channel-picture-4" src="images/image 3.jpg" loading="lazy">
+                    
+                    
+                        <img class="channel-picture-5" src="images/image 4.jpg" loading="lazy">
+                        
+                    </div>
+        
+                    <div class="time-and-date">2:30 PM &#183 Apr 2, 2025 &#183 <span class="views">80.8M</span> Views</div>
+        
+                    <div class="post-icons">
+                        <div class="post-icons-items">
+                            <img class="post-icons-images" src="images/twitter comment .png">
+                            <div>6.9k</div>
+                        </div>
+        
+                        <div class="post-icons-items">
+                            <img class="post-icons-images" src="images/twitter_retweet.png">
+                            <div>22k</div>
+                        </div>
+        
+                        <div class="post-icons-items">
+                            <img class="post-icons-images" src="images/favorite_image.png">
+                            <div>310k</div>
+                        </div>
+        
+                        <div class="post-icons-items">
+                            <img class="post-icons-images" src="images/twitter bar chat.png">
+                            <div>3.5kk</div>
+                        </div>
+        
+                        <div class="post-icons-items">
+                            <img class="post-icons-images" src="images/bookmark.png">
+                            <img class="post-icons-images" src="images/reshare icon.png">
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!--RIGHT SIDE-BAR-->
+            <div class="right-side-bar">
+                <div class="search-bar">
+                    <div class="search-image-div">
+                        <img class="search-image" src="images/search.svg">
+                    </div>
+        
+                    <div>
+                        <input class="input" type="search" id="search" name="search" placeholder="Search">
+                    </div>
+                </div>
+        
+                <div class="relevant-people-div">
+                    <p class="left-bar-heading">Relevant people</p>
+        
+                    <div class="left-items-container">
+                        <div class="relevant-people-bio-info">
+    
+                            <div class="profile-div">
+                                <div class="middle-section-profile-tooltip">
+        
+                                    <div class="name-profile">
+                                        <a href="https://x.com/CristianoRonado">
+                                            <div class="profile-image">
+                                                <img class="profile" loading="lazy" src="images/channel-1.jpeg">
+                                            </div>
+                                        </a>
+    
+                                        <div class="name">
+                                            <div class="username-div">
+                                                <a href="https://x.com/Cristiano">
+                                                    <div class="user-name">Cristiano Ronado</div>
+                                                </a>
+                                                <span class="bio">@Cristiano</span>
+                                            </div>
+                        
+                                            <div class="verified-image-div">
+                                                <img class="right-sidebar-verified" src="images/verified.png">
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="profile-tooltip-wrapper">
+                                        <div class="profile-tooltip-container">
+        
+                                            <div class="image-and-button">
+                                                <a href="https://x.com/CristianoRonado">
+                                                    <div>
+                                                        <img class="tooltip-profile" loading="lazy" src="images/channel-1.jpeg">
+                                                    </div>
+                                                </a>
+                                
+                                                <div>
+                                                    <div class="tooltip-follow-button">Follow</div>
+                                                </div>
+                                            </div>     
+        
+                                            <div class="name">
+                                                <div class="tooltip-username-div">
+                                                    <div class="user-name-tooltip">Cristiano Ronado</div>
+                                                    <span class="bio-tooltip">@Cristiano</span>
+                                                </div>
+                                
+                                                <div class="verified-image-div">
+                                                    <img class="right-sidebar-verified" src="images/verified.png">
+                                                </div>
+                                            </div>
+                                
+                                            <div class="discription">Dad, footballer, citizen, husband.</div>
+                                            <div class="audience">
+                                                <div class="followers-following">
+                                                    <div class="followers-div">511.3K <span class="following-tooltip">Following</span> </div>
+                                                    <div class="following-number-tooltip">511,349</div>
+                                                </div>
+        
+                                                <div class="followers-following">
+                                                    <div class="followers-div">130M <span class="followers">Followers</span> </div>
+                                                    <div class="follower-number-tooltip">130,068,103</div>
+                                                </div>
+                                            </div>                                        
+        
+                                            <div class="mutual-friend">
+                                                <img class="picture-tooltip" src="images/channel-2.jpeg">
+                                                <div class="mutual-friend-text">Followed by Dr. 'Bosun Tijani</div>
+                                            </div>
+        
+                                            <div class="tooltip-grok-div">
+                                                <img class="tooltip-grok" src="images/grok-logo.png">
+                                                <div class="profile-summary">Profile Summary</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+        
+                            <div>
+                                <div class="follow">Follow</div>
+                            </div>
+                        </div>
+        
+                        <div class="welcome-text">Welcome to the official account of Cristiano Ronaldo.</div>
+                    </div>
+                </div>
+        
+                <div class="rightbar-subscription-div-container">
+                    <h3 class="subscription">Subscribe to Premium</h3>
+                    <div class="subscription-eligible">Subscribe to unlock new features and if eligible, receive a share of revenue.</div>
+                    
+                    <a href="https://x.com/i/premium_sign_up">
+                        <div class="Subscribe-button">Subscribe</div>
+                    </a>
+                </div>
+        
+                <div class="rightbar-trending-div-conainer">
+                    <h3 class="event">What's happening</h3>
+        
+                    <div class="trending-div">
+                        <div>
+                            <img class="live-image" src="images/channel-2.jpeg" alt="live-picture" loading="lazy">
+                        </div>
+        
+                        <div class="live-stream">
+                            <div class="going-public">Going Public</div>
+                            <div class="live">LIVE</div>
+                        </div>
+                    </div>
+        
+                    <div class="flex-items">
+                        <div class="AMVCA">
+                            <div class="martell">#MartellxAMVCA</div>
+                            <img class="menu-icon-2" src="images/menu_vertical_icon.png">
+                        </div>
+        
+                        <div class="spotlight">Celebrating those who have the spotlight and rewrite the rules, boldly!</div>
+        
+                        <div>
+                            <div class="promoter">Promoted by Martell Nigeria</div>
+                        </div>
+                    </div>
+                   
+                    <div class="flex-items">
+                        <div class="music-trending-div">
+                            <div class="music-trending">Music &#183 Trending </div>
+                            <img class="menu-icon-2" src="images/menu_vertical_icon.png">
+                        </div>
+        
+                        <b class="artist-name">Bnxn</b>
+                        <div class="posts">20.1k posts</div>
+                    </div>
+        
+                    <div class="flex-items">
+                        <div class="music-trending-div">
+                            <div class="music-trending">Trending in Nigeria </div>
+                            <img class="menu-icon-2" src="images/menu_vertical_icon.png">
+                        </div>
+                        
+                        <b class="artist-name">Liquorose</b>
+                    </div>
+        
+                    <div class="flex-items">
+                        <div class="music-trending-div">
+                            <div class="music-trending">Trending in Nigeria </div>
+                            <img class="menu-icon-2" src="images/menu_vertical_icon.png">
+                        </div>
+                        
+                        <b class="artist-name">#AMVCA11</b>
+                        <div class="posts">12.9k posts</div>
+                    </div>
+                </div>
+        
+                <div class="grok-bg-div">
+                    <img class="grok-bg" src="images/grok-logo.png" loading="lazy">
+                </div>
+        
+                <div class="overlay-second">
+                    <div class="overlay">
+                        <div class="messages">Messages</div>
+        
+                        <div class="icons">
+                            <div class="mail-div">
+                                <img class="mail" src="images/mail image.png" alt="mail" loading="lazy">
+            
+                                <div class="new-message-tooltip">New message</div>
+                            </div>
+                
+                            <div class="expand-div">
+                                <img class="arrow" src="images/arrow lay.png" alt="arrow" loading="lazy">
+            
+                                <div class="expand-tooltip">Expand</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

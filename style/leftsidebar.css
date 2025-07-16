@@ -1,0 +1,148 @@
+.left-side-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    border-right: solid 1px rgb(242, 242, 242);
+    background-color: rgba(255, 255, 255, 0.953);
+    width: 300px;
+    max-width: fit-content;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    background-color: white;
+    z-index: 200;
+}
+
+@media (min-width: 1298px) and (max-width: 1321px) {
+    .left-side-bar {
+       width: 260px;
+       overflow: scroll;
+       overflow-x: hidden;
+       visibility: visible;
+       margin-left: 15px;
+    }
+}
+
+@media (min-width: 1450px) {
+    .left-side-bar {
+       padding-left: 100px;
+    }
+}
+
+@media (min-width: 1298px) and (max-width: 1351px) {
+    .left-side-bar {
+        width: 268px;
+        margin-left: 40px;
+    }
+}
+a { 
+    color: black;
+    text-decoration-line: none;
+}
+
+/*x-logo-code*/
+.fa-x-twitter {
+    font-size: 30px;
+}
+
+.x-twitter {
+   width: 30px;
+   padding: 11px;
+   cursor: pointer;
+}
+
+.x-twitter:hover {
+    background-color: rgb(227, 227, 227);
+    border-radius: 50%;
+}
+
+
+/*left-side-bar-items-codes*/
+.side-bar-titles {
+    width: 300px;
+}
+
+.grid-1 {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding-left: 12px;
+    width: max-content;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.grid-1:hover {
+    background-color: rgb(227, 227, 227);
+    border-radius: 30px;
+}
+
+.home {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.side-bar-icons {
+    padding-left: 2px;
+    width: 25px;
+}
+.side-bar-icons-2 {
+    padding-left: 2px;
+    width: 30px;
+}
+.name {
+    font-weight: bold;
+}
+.bio-span {
+    display: flex;
+    color: gray;
+}
+.post {
+    background-color: rgb(11, 11, 11);
+    padding: 16px 100px 16px 100px;
+    border-radius: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    width: max-content;
+    transition: opacity 0.30s;
+}
+.post:hover {
+    opacity: 0.88;
+}
+
+.user-info {
+    display: flex;
+    margin-top: 15px;
+    cursor: pointer;
+    width: max-content;
+    padding: 9px 12px 9px 0px;
+}
+.profile-picture {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.profile-picture-div {
+    text-align: center;
+    width: 70px;
+}
+.menu-icon {
+    margin-top: 16px;
+    height: 18px;
+}
+.username {
+    margin-top: 2px;
+    margin-right: 45px;
+    line-height: 22px;
+}
+.user-info:hover {
+    background-color: rgb(227, 227, 227);
+    border-radius: 40px;
+}
+.left-side-absolute {
+    position: relative;
+}

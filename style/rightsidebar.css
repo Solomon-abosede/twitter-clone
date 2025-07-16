@@ -1,0 +1,312 @@
+.right-side-bar {
+    position: static;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 432px;
+    z-index: 100;
+    border-left: solid 1px rgb(242, 242, 242);
+    background-color: rgba(255, 255, 255, 0.953);
+    padding-left: 24px;
+}
+
+@media (min-width: 1298px) and (max-width: 1351px) {
+    .right-side-bar {
+       width: 365px;
+    }
+}
+
+/*right-side-bar(aside-element)*/
+.search-bar {
+    position: relative;
+    display: flex;
+    margin-top: 2px;
+}
+.search-image-div {
+    position: absolute;
+    margin-left: 10px;
+    width: 20px;
+    margin-top: 8px;
+}
+.search-image {
+    width: 16px;
+    text-align: center;
+}
+.input {
+    width: 250px;
+    border: solid 1px rgb(227, 227, 227);
+    padding: 7px 0px 8px 30px;
+    border-radius: 20px;
+}
+.input::placeholder {
+    color: black;
+    font-size: 12px;
+}
+.relevant-people-div {
+    margin-top: 7px;
+    padding: 0px 14px 10px 20px;
+    width: max-content;
+    border: solid 1px rgb(242, 242, 242);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.left-bar-heading {
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.relevant-people-bio-info {
+    display: flex;
+    line-height: 18px;
+}
+.name-profile {
+    display: flex;
+}
+.follow {
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 7px 18px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 13px;
+    cursor: pointer;
+    width: max-content;
+}
+.welcome-text {
+    margin-left: 60px;
+    color: rgb(70, 70, 70);
+    width: 250px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.user-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+.user-name:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.bio {
+    font-size: 15px;
+    color: rgb(176, 176, 176);
+    font-weight: 500;
+}
+.right-sidebar-verified {
+    margin-top: 4px;
+    margin-left: 3px;
+    width: 17px;
+    text-align: center;
+}
+
+/*right-sidebar-second-column-container*/
+.rightbar-subscription-div-container {
+    margin-top: 7px;
+    padding: 0px 73px 15px 20px;
+    width: max-content;
+    border: solid 1px rgb(242, 242, 242);
+    border-radius: 10px;
+}
+.subscription {
+    margin-top: 6px;
+    margin-bottom: 7px;
+}
+.subscription-eligible {
+    color: rgb(70, 70, 70);
+    width: 250px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.Subscribe-button {
+    background-color: rgb(27, 141, 255);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    width: max-content;
+    border-radius: 20px;
+    margin-top: 13px;
+    padding: 6px 20px 9px 20px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.Subscribe-button:hover {
+    background-color: rgb(9, 120, 231);
+}
+
+/*right-sidebar-third-column-container*/
+.rightbar-trending-div-conainer {
+    margin-top: 7px;
+    width: max-content;
+    padding: 0px 0px 20px 20px;
+    border: solid 1px rgb(242, 242, 242);
+    border-radius: 10px;
+}
+.event {
+    margin-top: 6px;
+    font-family: roboto, helvetica, ;
+}
+.trending-div {
+    display: flex;
+}
+.live-stream {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.live-image {
+    width: 68px;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-bottom: 4px;
+}
+.going-public {
+    font-weight: bold;
+    font-size: 14px;
+}
+.live {
+    color: gray;
+    font-size: 12px;
+}
+
+.music-trending-div,
+.AMVCA {
+    display: flex;
+    justify-content: space-between;
+}
+.martell {
+    margin-bottom: 2px;
+    color: rgb(46, 46, 46);
+    font-size: 14px;
+    font-weight: bold;
+}
+.menu-icon-2 {
+    height: 16px;
+}
+
+.spotlight {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    line-height: 16px;
+    color: rgb(101, 101, 101);
+    width: 300px;
+}
+
+.music-trending,
+.posts,
+.promoter {
+    font-size: 12px;
+    color: rgb(101, 101, 101);
+}
+.artist-name {
+    font-size: 13px;
+}
+
+.flex-items {
+    transition: background-color 0.2s;
+    cursor: pointer;
+    padding: 5px 20px 5px 5px;
+}
+
+.trending-div:hover,
+.flex-items:hover {
+    background-color: rgb(232, 232, 232);
+}
+
+/*overlay-section*/
+.grok-bg-div {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    padding-top: 9px;
+    padding-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    border-radius: 15px;
+    border: solid 1px rgb(165, 165, 165);
+    box-shadow: 1px 1px 1px rgb(195, 195, 195);
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+.grok-bg-div:hover {
+    background-color: rgb(238, 250, 255);
+}
+.grok-bg {
+    width: 30px;
+    
+}
+.overlay {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: -50px;
+    padding: 8px 10px 20px 10px;
+    width: 325px;
+    border-radius: 13px;
+    border: solid 1px rgb(231, 231, 231);
+    box-shadow: 1px 1px 1px rgb(195, 195, 195);
+}
+.overlay-second {
+    position: fixed;
+    right: 20px;
+}
+.messages {
+    font-weight: bold;
+    font-size: 18px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+.expand-div,
+.mail-div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.expand-div .expand-tooltip,
+.mail-div .new-message-tooltip {
+    position: absolute;
+    bottom: 35px;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: rgb(59, 59, 59);
+    border-radius: 2px;
+    padding: 2px 4px;
+    color: white;
+    white-space: nowrap;
+    pointer-events: none;
+    opacity: 0;
+}
+.mail {
+    width: 23px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.arrow:hover,
+.mail:hover {
+    background-color: rgb(230, 230, 230);
+}
+.expand-div:hover .expand-tooltip,
+.mail-div:hover .new-message-tooltip {
+    opacity: 1;
+}
+.arrow {
+    width: 25px;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
