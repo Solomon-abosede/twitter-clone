@@ -7,25 +7,31 @@
     background-color: rgba(255, 255, 255, 0.953);
     z-index: 100;
 }
-
-@media (min-width: 1298px) and (max-width: 1321px) {
-    .header {
-        left: 270px;
-    }
-}
-
 @media (min-width: 1298px) and (max-width: 1350px) {
     .header {
-        left: 310px;
+        left: 287px;
     }
 }
-
-@media (min-width: 1351px) and (max-width: 1450px) {
+@media (min-width: 1350px) and (max-width: 1360px) {
     .header {
-        left: 
+        left: 315px;
     }
 }
-
+@media (min-width: 1360px) and (max-width: 1380px) {
+    .header {
+        left: 324px;
+    }
+}
+@media (min-width: 1380px) and (max-width: 1390px) {
+    .header {
+        left: 345px;
+    }
+}
+@media (min-width: 1390px) and (max-width: 1400px) {
+    .header {
+        left: 345px;
+    }
+}
 .for-you {
     position: relative;
     font-weight: bold;   

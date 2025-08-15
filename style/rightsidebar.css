@@ -1,5 +1,5 @@
 .right-side-bar {
-    position: static;
+    position: fixed;
     top: 0;
     bottom: 0;
     right: 0;
@@ -10,12 +10,72 @@
     padding-left: 24px;
 }
 
-@media (min-width: 1298px) and (max-width: 1351px) {
+@media (min-width: 1298px) and (max-width: 1310px) {
     .right-side-bar {
-       width: 365px;
+       width: 350px;
+    }
+}
+@media (min-width: 1310px) and (max-width: 1320px) {
+    .right-side-bar {
+       width: 355px;
+    }
+}
+@media (min-width: 1320px) and (max-width: 1330px) {
+    .right-side-bar {
+        width: 364px;
+    }
+}
+@media (min-width: 1330px) and (max-width: 1340px) {
+    .right-side-bar {
+        width: 375px;
+    }
+}
+@media (min-width: 1340px) and (max-width: 1350px) {
+    .right-side-bar {
+        width: 384px;
+    }
+}
+@media (min-width: 1350px) and (max-width: 1360px) {
+    .right-side-bar {
+        width: 365px;
     }
 }
 
+@media (min-width: 1360px) and (max-width: 1365px) {
+    .right-side-bar {
+        width: 368px;
+    }
+}
+@media (min-width: 1365px) and (max-width: 1370px) {
+    .right-side-bar {
+        width: 370px;
+    }
+}
+@media (min-width: 1370px) and (max-width: 1375px) {
+    .right-side-bar {
+        width: 375px;
+    }
+}
+@media (min-width: 1375px) and (max-width: 1380px) {
+    .right-side-bar {
+        width: 382px;
+    }
+}
+@media (min-width: 1380px) and (max-width: 1385px) {
+    .right-side-bar {
+        width: 365px;
+    }
+}
+@media (min-width: 1385px) and (max-width: 1390px) {
+    .right-side-bar {
+        width: 370px;
+    }
+}
+@media (min-width: 1390px) and (max-width: 1400px) {
+    .right-side-bar {
+        width: 375px;
+    }
+}
 /*right-side-bar(aside-element)*/
 .search-bar {
     position: relative;

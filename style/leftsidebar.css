@@ -2,9 +2,10 @@
     position: fixed;
     top: 0;
     bottom: 0;
+    left: 130px;
     border-right: solid 1px rgb(242, 242, 242);
     background-color: rgba(255, 255, 255, 0.953);
-    width: 300px;
+    width: 100%;
     max-width: fit-content;
     padding-top: 3px;
     padding-bottom: 5px;
@@ -12,28 +13,56 @@
     z-index: 200;
 }
 
-@media (min-width: 1298px) and (max-width: 1321px) {
+@media (min-width: 1298px) and (max-width: 1310px) {
     .left-side-bar {
-       width: 260px;
+       left: 5px;
+       width: 275px;
+       overflow: scroll;
+       overflow-x: hidden;
+       visibility: hidden;
+    }
+}
+@media (min-width: 1310px) and (max-width: 1350px) {
+    .left-side-bar {
+       left: 8px;
+       width: 275px;
        overflow: scroll;
        overflow-x: hidden;
        visibility: visible;
-       margin-left: 15px;
+    }
+}
+@media (min-width: 1350px) and (max-width: 1360px) {
+    .left-side-bar {
+        left: 8px;
+        width: 270px;
+        margin-left: 38px;
+        overflow: scroll;
+        overflow-x: hidden;
+        visibility: visible;
     }
 }
 
-@media (min-width: 1450px) {
+@media (min-width: 1360px) and (max-width: 1380px) {
     .left-side-bar {
-       padding-left: 100px;
+        left: 44px;
+        width: 280px;
     }
 }
 
-@media (min-width: 1298px) and (max-width: 1351px) {
+@media (min-width: 1380px) and (max-width: 1390px) {
     .left-side-bar {
-        width: 268px;
-        margin-left: 40px;
+        left: 55px;
+        width: 290px;
     }
 }
+
+@media (min-width: 1390px) and (max-width: 1400px) {
+    .left-side-bar {
+        left: 55px;
+        width: 290px;
+    }
+}
+
 a { 
     color: black;
     text-decoration-line: none;
