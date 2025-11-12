@@ -4,6 +4,11 @@
     left: 432px;
     margin-right: 5px;
 }
+@media (min-width: 400px) and (max-width: 1279px) {
+    .main {
+        left: 307px;
+    }
+}
 @media (min-width: 1298px) and (max-width: 1310px) {
     .main {
         left: 284px;
@@ -24,7 +29,6 @@
        left: 315px;
     }
 }
-
 @media (min-width: 1360px) and (max-width: 1380px) {
     .main {
        left: 325px;
@@ -44,12 +48,19 @@
 @media (min-width: 1400px) and (max-width: 1410px) {
     .main {
        left: 320px;
+    } 
+}
+@media (min-width: 1000px) and (max-width: 1297px) {
+    .main {
+       left: 212px;
     }
 }
-
-
-
-
+@media (min-width: 1000px) and (max-width: 1297px) {
+    .user-header {
+        position: relative;
+        left: 10px;
+    }
+}
 .whats-happening {
     display: flex;
 }
@@ -93,7 +104,7 @@
 .middle-section-profile-tooltip .profile-tooltip-wrapper {
     position: absolute;
     top: 50px;
-    z-index: 200;
+    z-index: 500;
     width: 180px;
     box-shadow: 1px 1px 0px rgb(195, 195, 195);
     background-color: white;
@@ -101,8 +112,9 @@
     padding: 10px 80px 20px 10px;
     border: solid 1px rgb(218, 218, 218);
     border-radius: 10px;
-    opacity: 0;
     visibility: hidden;
+    opacity: 0;
+   
 }
 .middle-section-profile-tooltip:hover .profile-tooltip-wrapper {
     visibility: visible;
@@ -285,6 +297,9 @@
 .user-header {
     display: flex;
 }
+.user-headwer:hover {
+    background-color: rgb(246, 242, 242);
+}
 .logos {
     display: flex;
     position: relative;
@@ -344,19 +359,24 @@
     margin-top: 5px;
     width: 17px;
     text-align: center;
-}
+} 
 .channel-picture-container {
     break-inside: avoid;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     row-gap: 2px;
+    border: solid;
+    border-radius: 25px;
+    border-width: 1px;
+    border-color: rgb(185, 185, 185);
+    width: min-content;
+    margin-left: 60px;
 }
 
 /*border-radius-for-the main-content*/
 .channel-picture-2 {
     border-top-left-radius: 25px;
-    margin-left: 60px;
 }
 .channel-picture-3 {
     border-top-right-radius: 25px; 
@@ -364,7 +384,6 @@
 }
 .channel-picture-4 {
     border-bottom-left-radius: 25px;
-    margin-left: 60px;
 }
 .channel-picture-5 {
     border-bottom-right-radius: 25px;
@@ -399,13 +418,44 @@
     padding-top: 5px;
     padding-left: 65px;
     margin-right: 0px;
-    border-top: solid 1px rgb(240, 240, 240);
+    border: none;
 }
 .post-icons-items { 
     display: flex;
     align-items: center;
     width: 100px;
+    cursor: pointer;
 }
 .post-icons-images {
     width: 30px;
+}
+.post-icons-images-2 {
+    width: 11px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+.post-download-images {
+    width: 13px;
+}
+.post-download-images-2 {
+    width: 40px;
+}
+.profile-div-container-2 {
+    display: flex;
+}
+.crypto-trade-container {
+    object-fit: cover;
+    width: 550px;
+    border-width: 1px;
+    border-color: rgb(185, 185, 185);
+}
+.crypto-trade {
+    width: 550px;
+    border-radius: 25px;
+    margin-left: 60px;
+}
+.logos-2 {
+    display: flex;
+    position: relative;
+    left: 240px;
 }

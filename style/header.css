@@ -7,6 +7,11 @@
     background-color: rgba(255, 255, 255, 0.953);
     z-index: 100;
 }
+@media (min-width: 400px) and (max-width: 1279px) {
+    .header {
+        left: 307px;
+    }
+}
 @media (min-width: 1298px) and (max-width: 1350px) {
     .header {
         left: 287px;
@@ -32,6 +37,12 @@
         left: 345px;
     }
 }
+@media (min-width: 1000px) and (max-width: 1297px) {
+    .header {
+       left: 212px;
+    }
+}
+
 .for-you {
     position: relative;
     font-weight: bold;   

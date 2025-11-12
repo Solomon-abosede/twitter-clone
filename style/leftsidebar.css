@@ -12,6 +12,12 @@
     background-color: white;
     z-index: 200;
 }
+@media (min-width: 400px) and (max-width: 1279px) {
+    .left-side-bar {
+        left: 45px;
+        width: 260px;
+    }
+}
 
 @media (min-width: 1298px) and (max-width: 1310px) {
     .left-side-bar {
@@ -19,7 +25,7 @@
        width: 275px;
        overflow: scroll;
        overflow-x: hidden;
-       visibility: hidden;
+       visibility: visible;
     }
 }
 @media (min-width: 1310px) and (max-width: 1350px) {
@@ -60,6 +66,18 @@
     .left-side-bar {
         left: 55px;
         width: 290px;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .left-side-bar {
+       width: 80px;
+       z-index: 200px;
+    }
+}
+@media (min-width: 999px) and (max-width: 500px) {
+    .left-side-bar {
+        left: 55px;
+        width: 20px;   
     }
 }
 
@@ -110,6 +128,11 @@ a {
     padding-left: 20px;
     padding-right: 30px;
 }
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .home {
+        display: none;
+    }
+}
 
 .side-bar-icons {
     padding-left: 2px;
@@ -119,12 +142,30 @@ a {
     padding-left: 2px;
     width: 30px;
 }
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .side-bar-icons {
+       padding-right: 10px;
+       width: 25px;
+    }
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .side-bar-icons-2 {
+       padding-right: 10px;
+       width: 30px;
+    }
+}
+
 .name {
     font-weight: bold;
 }
 .bio-span {
     display: flex;
     color: gray;
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .post {
+        display: none;
+    }
 }
 .post {
     background-color: rgb(11, 11, 11);
@@ -139,6 +180,31 @@ a {
     width: max-content;
     transition: opacity 0.30s;
 }
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .post-icon {
+        height: 50px;
+        width: 50px;
+        margin-left: 5px;
+        cursor: pointer;
+        transition: opacity 0.35s;
+    }
+
+    .post-icon:hover {
+        opacity: 0.85;
+    }
+}
+@media  (min-width: 300px) and (max-width: 999px) {
+    .post-icon {
+        display: none;
+    }
+}
+@media  (min-width: 1301px) {
+    .post-icon {
+        display: none;
+    }
+}
+
 .post:hover {
     opacity: 0.88;
 }
@@ -150,6 +216,11 @@ a {
     width: max-content;
     padding: 9px 12px 9px 0px;
 }
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .user-info {
+        padding: 5px 2px;
+    }
+}
 .profile-picture {
     height: 45px;
     width: 45px;
@@ -159,9 +230,20 @@ a {
     text-align: center;
     width: 70px;
 }
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .menu-icon {
+        display: none;
+    }
+}
 .menu-icon {
     margin-top: 16px;
     height: 18px;
+}
+
+@media (min-width: 1000px) and (max-width: 1300px) {
+    .username {
+        display: none;
+    }
 }
 .username {
     margin-top: 2px;
@@ -171,7 +253,9 @@ a {
 .user-info:hover {
     background-color: rgb(227, 227, 227);
     border-radius: 40px;
+    width: fit-content;
 }
+
 .left-side-absolute {
     position: relative;
 }

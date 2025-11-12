@@ -9,7 +9,11 @@
     background-color: rgba(255, 255, 255, 0.953);
     padding-left: 24px;
 }
-
+@media (min-width: 1280px) and (max-width: 1297px) {
+    .right-side-bar {
+        width: 400px;
+    }
+}
 @media (min-width: 1298px) and (max-width: 1310px) {
     .right-side-bar {
        width: 350px;
@@ -74,6 +78,11 @@
 @media (min-width: 1390px) and (max-width: 1400px) {
     .right-side-bar {
         width: 375px;
+    }
+}
+@media (min-width: 400px) and (max-width: 1279px) {
+    .right-side-bar {
+        display: none;
     }
 }
 /*right-side-bar(aside-element)*/
